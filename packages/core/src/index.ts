@@ -1,3 +1,0 @@
-import ModuleExample from './module-example';
-
-export { ModuleExample };

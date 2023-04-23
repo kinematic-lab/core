@@ -1,3 +1,3 @@
 module.exports = {
-	extends: '@kinematic-lab/eslint-config-typescript',
+	extends: '@kinematic-lab/eslint-config-vue',
 };
