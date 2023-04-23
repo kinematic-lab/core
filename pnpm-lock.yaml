@@ -38,6 +38,21 @@ importers:
       turbo: 1.9.3
       typescript: 5.0.4
 
+  apps/dev:
+    specifiers:
+      '@kinematic-lab/eslint-config-vue': workspace:*
+      '@nuxt/kit': ^3.3.1
+      eslint: ^8.36.0
+      nuxt: ^3.3.1
+      prettier: ^2.7.1
+    dependencies:
+      '@nuxt/kit': 3.4.1
+      nuxt: 3.4.1_66tpprv4bknp5ylxzxsngb6x5q
+    devDependencies:
+      '@kinematic-lab/eslint-config-vue': link:../../packages/eslint-config-vue
+      eslint: 8.38.0
+      prettier: 2.8.7
+
   apps/docs:
     specifiers:
       '@kinematic-lab/eslint-config-vue': workspace:*
